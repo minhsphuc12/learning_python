@@ -26,4 +26,5 @@ get_even_only([1,2,3,4,5,6])
 
 problem_limit = 4*10**6
 answer_02 = sum(get_even_only(get_fibonacci_list(problem_limit)))
-answer_02 
+
+
