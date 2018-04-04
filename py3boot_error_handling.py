@@ -43,3 +43,8 @@ def get_int():
 
 get_int()
 
+a = 1
+b = 2
+print(a)
+print(B)
+
