@@ -4,5 +4,14 @@ import sample_perfect_script
 class TestCap(unittest.TestCase):
     def test_one_word(self):
         text = 'python'
-        result = cap.cap_text(text)
+        result = sample_perfect_script.capitalize_text(text)
         self.assertEqual(result, 'Python')
+    
+    def test_multiple_word(self):
+        text = 'colin stuff'
+        result = sample_perfect_script.capitalize_text(text)
+        self.assertEqual(result, 'Colin stuff')
+    
+if __name__ == '__main__':
+    unittest.main()
+    
